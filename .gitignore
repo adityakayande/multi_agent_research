@@ -1,0 +1,28 @@
+# Python
+.env
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Streamlit (legacy)
+.streamlit/secrets.toml
+
+# Output files
+output/*.md
+output/*.txt
+
+# Local PDF RAG data
+uploads/
+data/qdrant/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vercel/
+
+# Misc
+.DS_Store
+*.log
